@@ -2,7 +2,7 @@
   "manifest_version":  3,
   "name": "Rtl fix",
   "description": "Making textareas and inputs of the current page right to left direction for Arabic, Hebrew, Kashmiri and other languages",
-  "version": "1.2",
+  "version": "1.3",
   "icons": {
     "128" : "icon.png"
   },

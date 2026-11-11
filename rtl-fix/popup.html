@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-  <title>Currency converter</title>
+  <title>Rtl fix</title>
   <style>
     body {
       display: flex;
@@ -103,6 +103,16 @@
     }
   }
 
+  #status {
+    color: #ccc;
+    font: 12px sans-serif;
+    min-height: 1em;
+    max-width: 220px;
+    text-align: center;
+  }
+  #status.error {
+    color: #ff6b6b;
+  }
   </style>
 
   <script src="popup.js"></script>
@@ -110,6 +120,8 @@
 
 <body>
 <button style="--clr:#39FF14" id="makeRTL"><span>Make RTL</span><i></i></button>
+<button style="--clr:#ff9f1c" id="resetRTL"><span>Reset</span><i></i></button>
+<div id="status"></div>
 
 </body>
 </html>
